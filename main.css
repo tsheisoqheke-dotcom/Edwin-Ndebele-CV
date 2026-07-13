@@ -1,16 +1,23 @@
 main {
   background-color: aqua;
   font-family: Arial, Helvetica, sans-serif;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  text-align: center;
   gap: 8px;
   width: calc(200% / 2);
   height: 80%vh;
 }
+body {
+  background-color: rgb(198, 240, 11);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
 main div#scooby {
-  background-color: rgb(190, 240, 11);
+  background-color: rgb(11, 240, 240);
   display: grid;
 }
 main div#tsheiso {
-  background-color: #1472ec;
+  background-color: #14c1ec;
+}
+main div#edwin {
+  background-color: rgb(11, 185, 238);
 }
