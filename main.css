@@ -5,6 +5,7 @@ main {
   gap: 8px;
   width: calc(200% / 2);
   height: 80%vh;
+  display: grid;
 }
 body {
   text-align: center;
