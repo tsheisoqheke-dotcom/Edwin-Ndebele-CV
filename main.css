@@ -5,7 +5,7 @@ main {
   width: calc(200% / 2);
   height: 80vh;
   display: grid;
-  grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
   margin-top: 10px;
 }
 body {
@@ -16,8 +16,15 @@ body {
 main div#box02 {
   background-color: aqua;
   border: 1px solid #ccc;
+  text-align: left;
 }
 main div#box01 {
   background-color: aqua;
   border: 1px solid #ccc;
+  text-align: left;
+}
+main div#box03 {
+  background-color: aqua;
+  border: 1px solid #ccc;
+  text-align: left;
 }
